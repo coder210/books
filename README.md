@@ -5,4 +5,4 @@
 
 <!---  下面是本文档中用到的链接  -->
 [面向对象葵花宝典]: 面向对象葵花宝典.md
-[CLR_via_C#]: CLR_via_C#.md
+[CLR_via_C#]: CLR_via_CSharp.md
