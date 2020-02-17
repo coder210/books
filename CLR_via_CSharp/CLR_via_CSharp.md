@@ -114,4 +114,19 @@ public static viod Main()
 
 如果代码访问尚未显式初始化的局部变量, C#会报造错误消息: **使用了未赋值的nn变量**
 
+---
 
+## 第5单 基元类型、引用类型和值类型
+编译器直接支持的数据类型称为**基元类型**。基元类型直接映射到Framework类库(FCL)中存在的类型。例C#的int直接映射到System.Int32类型,生成的IL完全相同
+```C#
+int				a = 0; // a最好
+System.Int32			a = 0; // b
+int				a =  new int(); // c
+System.Int32		        a =  new System.Int32(); //d最差
+```
+
+<br/>
+
+#### 基元类型与对应的FCL类型图
+
+![图表](./images/CLR_via_CSharp/5.1_1.png)
